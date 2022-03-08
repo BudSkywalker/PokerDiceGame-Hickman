@@ -1,0 +1,354 @@
+﻿{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1642460675703788, "dur": 922337203685477580, "ph": "X", "name": "Build ScriptAssemblies", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1642460675706138, "dur": 19768, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1642460675726199, "dur": 607479, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1642460676333743, "dur": 11381, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1642460685962469, "dur": 922337203685477580, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1642460685963496, "dur": 12713, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1642460685976213, "dur": 225971, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1642460686202187, "dur": 6157, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1642460686209583, "dur": 39, "ph": "X", "name": "", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1642460686038445, "dur":4516, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1642460686042976, "dur":181, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1642460686043221, "dur":31, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1642460686043255, "dur":1402, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1642460686044716, "dur":1377, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1642460686046093, "dur":2, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1642460686131754, "dur":119, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1642460686131873, "dur":34, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1642460686131907, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1642460686131911, "dur":15, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1642460686131926, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1642460686131930, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1642460686131940, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1642460686131943, "dur":13, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1642460686131957, "dur":342, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1642460686132299, "dur":18, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1642460686132317, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1642460686132320, "dur":15, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1642460686132335, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1642460686132338, "dur":13, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1642460686132351, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1642460686132354, "dur":16, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1642460686132370, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1642460686132388, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1642460686132425, "dur":8996, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1642460686048152, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1642460686048154, "dur":13205, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1642460686061381, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1642460686061384, "dur":1337, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1642460686062723, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Logan/Documents/Projects/Unity/SGD213/Builds/PokerDiceBUILD-Hickman/PokerDiceGame-Hickman_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1642460686062725, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1642460686062741, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Logan/Documents/Projects/Unity/SGD213/Builds/PokerDiceBUILD-Hickman/PokerDiceGame-Hickman_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":1, "ts":1642460686062757, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1642460686062773, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Logan/Documents/Projects/Unity/SGD213/Builds/PokerDiceBUILD-Hickman/PokerDiceGame-Hickman_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1642460686062788, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1642460686062801, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Logan/Documents/Projects/Unity/SGD213/Builds/PokerDiceBUILD-Hickman/PokerDiceGame-Hickman_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":1, "ts":1642460686062818, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1642460686062834, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Logan/Documents/Projects/Unity/SGD213/Builds/PokerDiceBUILD-Hickman/PokerDiceGame-Hickman_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":1, "ts":1642460686062852, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1642460686062865, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Logan/Documents/Projects/Unity/SGD213/Builds/PokerDiceBUILD-Hickman/PokerDiceGame-Hickman_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":1, "ts":1642460686062879, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1642460686062894, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Logan/Documents/Projects/Unity/SGD213/Builds/PokerDiceBUILD-Hickman/PokerDiceGame-Hickman_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":1, "ts":1642460686062917, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1642460686062930, "dur":986, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Logan/Documents/Projects/Unity/SGD213/Builds/PokerDiceBUILD-Hickman/PokerDiceGame-Hickman_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":1, "ts":1642460686063922, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1642460686112035, "dur":19374, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Logan/Documents/Projects/Unity/SGD213/Builds/PokerDiceBUILD-Hickman/PokerDiceGame-Hickman_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":1, "ts":1642460686131433, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":1, "ts":1642460686131436, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1642460686048287, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1642460686048288, "dur":13153, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1642460686061441, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Logan/Documents/Projects/Unity/SGD213/Builds/PokerDiceBUILD-Hickman/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1642460686061539, "dur":23, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1642460686061563, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Logan/Documents/Projects/Unity/SGD213/Builds/PokerDiceBUILD-Hickman/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1642460686061650, "dur":18, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1642460686061669, "dur":107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Logan/Documents/Projects/Unity/SGD213/Builds/PokerDiceBUILD-Hickman/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1642460686061777, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1642460686061795, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Logan/Documents/Projects/Unity/SGD213/Builds/PokerDiceBUILD-Hickman/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":2, "ts":1642460686061881, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1642460686061898, "dur":96, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Logan/Documents/Projects/Unity/SGD213/Builds/PokerDiceBUILD-Hickman/UnityCrashHandler64.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1642460686061994, "dur":20, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1642460686062015, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Logan/Documents/Projects/Unity/SGD213/Builds/PokerDiceBUILD-Hickman/PokerDiceGame-Hickman_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1642460686062032, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1642460686062048, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Logan/Documents/Projects/Unity/SGD213/Builds/PokerDiceBUILD-Hickman/PokerDiceGame-Hickman_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1642460686062065, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1642460686062079, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Logan/Documents/Projects/Unity/SGD213/Builds/PokerDiceBUILD-Hickman/PokerDiceGame-Hickman_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1642460686062103, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1642460686062118, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Logan/Documents/Projects/Unity/SGD213/Builds/PokerDiceBUILD-Hickman/PokerDiceGame-Hickman_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1642460686062135, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1642460686062148, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Logan/Documents/Projects/Unity/SGD213/Builds/PokerDiceBUILD-Hickman/PokerDiceGame-Hickman_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1642460686062161, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1642460686062176, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Logan/Documents/Projects/Unity/SGD213/Builds/PokerDiceBUILD-Hickman/PokerDiceGame-Hickman_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1642460686062199, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1642460686062213, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Logan/Documents/Projects/Unity/SGD213/Builds/PokerDiceBUILD-Hickman/PokerDiceGame-Hickman_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1642460686062228, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1642460686062241, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Logan/Documents/Projects/Unity/SGD213/Builds/PokerDiceBUILD-Hickman/PokerDiceGame-Hickman_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1642460686062255, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1642460686062267, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Logan/Documents/Projects/Unity/SGD213/Builds/PokerDiceBUILD-Hickman/PokerDiceGame-Hickman_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1642460686062283, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1642460686062296, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Logan/Documents/Projects/Unity/SGD213/Builds/PokerDiceBUILD-Hickman/PokerDiceGame-Hickman_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1642460686062314, "dur":21, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1642460686062335, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Logan/Documents/Projects/Unity/SGD213/Builds/PokerDiceBUILD-Hickman/PokerDiceGame-Hickman_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1642460686062351, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1642460686062363, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Logan/Documents/Projects/Unity/SGD213/Builds/PokerDiceBUILD-Hickman/PokerDiceGame-Hickman_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1642460686062376, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1642460686062388, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Logan/Documents/Projects/Unity/SGD213/Builds/PokerDiceBUILD-Hickman/PokerDiceGame-Hickman_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1642460686062402, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1642460686062415, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Logan/Documents/Projects/Unity/SGD213/Builds/PokerDiceBUILD-Hickman/PokerDiceGame-Hickman_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1642460686062502, "dur":36, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1642460686062538, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Logan/Documents/Projects/Unity/SGD213/Builds/PokerDiceBUILD-Hickman/PokerDiceGame-Hickman_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1642460686062555, "dur":16, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1642460686062572, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Logan/Documents/Projects/Unity/SGD213/Builds/PokerDiceBUILD-Hickman/PokerDiceGame-Hickman_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1642460686062592, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1642460686062606, "dur":525, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Logan/Documents/Projects/Unity/SGD213/Builds/PokerDiceBUILD-Hickman/PokerDiceGame-Hickman_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":2, "ts":1642460686063131, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1642460686063158, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Logan/Documents/Projects/Unity/SGD213/Builds/PokerDiceBUILD-Hickman/PokerDiceGame-Hickman_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":2, "ts":1642460686063185, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1642460686087788, "dur":8778, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Logan/Documents/Projects/Unity/SGD213/Builds/PokerDiceBUILD-Hickman/PokerDiceGame-Hickman_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":2, "ts":1642460686096596, "dur":267, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Logan/Documents/Projects/Unity/SGD213/Builds/PokerDiceBUILD-Hickman/PokerDiceGame-Hickman_Data/boot.config" }}
+,{ "pid":12345, "tid":2, "ts":1642460686096864, "dur":27, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1642460686096892, "dur":34596, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1642460686048325, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1642460686048326, "dur":13057, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1642460686061385, "dur":1296, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Logan/Documents/Projects/Unity/SGD213/Builds/PokerDiceBUILD-Hickman/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1642460686062682, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1642460686062696, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Logan/Documents/Projects/Unity/SGD213/Builds/PokerDiceBUILD-Hickman/PokerDiceGame-Hickman_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":3, "ts":1642460686062721, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1642460686062732, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Logan/Documents/Projects/Unity/SGD213/Builds/PokerDiceBUILD-Hickman/PokerDiceGame-Hickman_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1642460686062744, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1642460686062756, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Logan/Documents/Projects/Unity/SGD213/Builds/PokerDiceBUILD-Hickman/PokerDiceGame-Hickman_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":3, "ts":1642460686062769, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1642460686062781, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Logan/Documents/Projects/Unity/SGD213/Builds/PokerDiceBUILD-Hickman/PokerDiceGame-Hickman_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":3, "ts":1642460686062794, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1642460686062805, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Logan/Documents/Projects/Unity/SGD213/Builds/PokerDiceBUILD-Hickman/PokerDiceGame-Hickman_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":3, "ts":1642460686062819, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1642460686062835, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Logan/Documents/Projects/Unity/SGD213/Builds/PokerDiceBUILD-Hickman/PokerDiceGame-Hickman_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1642460686062850, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1642460686062864, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Logan/Documents/Projects/Unity/SGD213/Builds/PokerDiceBUILD-Hickman/PokerDiceGame-Hickman_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1642460686062877, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1642460686062887, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Logan/Documents/Projects/Unity/SGD213/Builds/PokerDiceBUILD-Hickman/PokerDiceGame-Hickman_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":3, "ts":1642460686062900, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1642460686062911, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Logan/Documents/Projects/Unity/SGD213/Builds/PokerDiceBUILD-Hickman/PokerDiceGame-Hickman_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1642460686062925, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1642460686062935, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Logan/Documents/Projects/Unity/SGD213/Builds/PokerDiceBUILD-Hickman/PokerDiceGame-Hickman_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1642460686062961, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1642460686068570, "dur":15119, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Logan/Documents/Projects/Unity/SGD213/Builds/PokerDiceBUILD-Hickman/PokerDiceGame-Hickman_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1642460686083713, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Logan/Documents/Projects/Unity/SGD213/Builds/PokerDiceBUILD-Hickman/PokerDiceGame-Hickman_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":3, "ts":1642460686083740, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1642460686083753, "dur":13109, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Logan/Documents/Projects/Unity/SGD213/Builds/PokerDiceBUILD-Hickman/PokerDiceGame-Hickman_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":3, "ts":1642460686096879, "dur":34608, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1642460686048152, "dur":2, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1642460686048154, "dur":13245, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1642460686061400, "dur":135, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Logan/Documents/Projects/Unity/SGD213/Builds/PokerDiceBUILD-Hickman/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1642460686061536, "dur":23, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1642460686061560, "dur":144, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Logan/Documents/Projects/Unity/SGD213/Builds/PokerDiceBUILD-Hickman/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1642460686061704, "dur":20, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1642460686061725, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Logan/Documents/Projects/Unity/SGD213/Builds/PokerDiceBUILD-Hickman/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":4, "ts":1642460686061822, "dur":16, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1642460686061838, "dur":96, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Logan/Documents/Projects/Unity/SGD213/Builds/PokerDiceBUILD-Hickman/UnityPlayer_Win64_player_mono_x64.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1642460686061934, "dur":46, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1642460686061981, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Logan/Documents/Projects/Unity/SGD213/Builds/PokerDiceBUILD-Hickman/PokerDiceGame-Hickman_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":4, "ts":1642460686062062, "dur":16, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1642460686062078, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Logan/Documents/Projects/Unity/SGD213/Builds/PokerDiceBUILD-Hickman/PokerDiceGame-Hickman_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1642460686062099, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1642460686062114, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Logan/Documents/Projects/Unity/SGD213/Builds/PokerDiceBUILD-Hickman/PokerDiceGame-Hickman_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1642460686062130, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1642460686062144, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Logan/Documents/Projects/Unity/SGD213/Builds/PokerDiceBUILD-Hickman/PokerDiceGame-Hickman_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1642460686062159, "dur":20, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1642460686062180, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Logan/Documents/Projects/Unity/SGD213/Builds/PokerDiceBUILD-Hickman/PokerDiceGame-Hickman_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1642460686062209, "dur":22, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1642460686062232, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Logan/Documents/Projects/Unity/SGD213/Builds/PokerDiceBUILD-Hickman/PokerDiceGame-Hickman_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1642460686062263, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1642460686062287, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Logan/Documents/Projects/Unity/SGD213/Builds/PokerDiceBUILD-Hickman/PokerDiceGame-Hickman_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1642460686062313, "dur":25, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1642460686062339, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Logan/Documents/Projects/Unity/SGD213/Builds/PokerDiceBUILD-Hickman/PokerDiceGame-Hickman_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1642460686062354, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1642460686062369, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Logan/Documents/Projects/Unity/SGD213/Builds/PokerDiceBUILD-Hickman/PokerDiceGame-Hickman_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1642460686062384, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1642460686062397, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Logan/Documents/Projects/Unity/SGD213/Builds/PokerDiceBUILD-Hickman/PokerDiceGame-Hickman_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":4, "ts":1642460686062412, "dur":298, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1642460686062711, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Logan/Documents/Projects/Unity/SGD213/Builds/PokerDiceBUILD-Hickman/PokerDiceGame-Hickman_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":4, "ts":1642460686062736, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1642460686062750, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Logan/Documents/Projects/Unity/SGD213/Builds/PokerDiceBUILD-Hickman/PokerDiceGame-Hickman_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1642460686062765, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1642460686062778, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Logan/Documents/Projects/Unity/SGD213/Builds/PokerDiceBUILD-Hickman/PokerDiceGame-Hickman_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":4, "ts":1642460686062791, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1642460686062804, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Logan/Documents/Projects/Unity/SGD213/Builds/PokerDiceBUILD-Hickman/PokerDiceGame-Hickman_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":4, "ts":1642460686062817, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1642460686062834, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Logan/Documents/Projects/Unity/SGD213/Builds/PokerDiceBUILD-Hickman/PokerDiceGame-Hickman_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":4, "ts":1642460686062850, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1642460686062864, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Logan/Documents/Projects/Unity/SGD213/Builds/PokerDiceBUILD-Hickman/PokerDiceGame-Hickman_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1642460686062879, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1642460686062893, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Logan/Documents/Projects/Unity/SGD213/Builds/PokerDiceBUILD-Hickman/PokerDiceGame-Hickman_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":4, "ts":1642460686062916, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1642460686062930, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Logan/Documents/Projects/Unity/SGD213/Builds/PokerDiceBUILD-Hickman/PokerDiceGame-Hickman_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":4, "ts":1642460686062967, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1642460686080602, "dur":11388, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Logan/Documents/Projects/Unity/SGD213/Builds/PokerDiceBUILD-Hickman/PokerDiceGame-Hickman_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":4, "ts":1642460686092009, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Logan/Documents/Projects/Unity/SGD213/Builds/PokerDiceBUILD-Hickman/PokerDiceGame-Hickman_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":4, "ts":1642460686092057, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1642460686092068, "dur":7894, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Logan/Documents/Projects/Unity/SGD213/Builds/PokerDiceBUILD-Hickman/PokerDiceGame-Hickman_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":4, "ts":1642460686099978, "dur":31660, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1642460686048155, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1642460686048155, "dur":13235, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1642460686061392, "dur":143, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Logan/Documents/Projects/Unity/SGD213/Builds/PokerDiceBUILD-Hickman/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1642460686061536, "dur":22, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1642460686061559, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Logan/Documents/Projects/Unity/SGD213/Builds/PokerDiceBUILD-Hickman/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1642460686061653, "dur":36, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1642460686061690, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Logan/Documents/Projects/Unity/SGD213/Builds/PokerDiceBUILD-Hickman/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1642460686061782, "dur":27, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1642460686061810, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Logan/Documents/Projects/Unity/SGD213/Builds/PokerDiceBUILD-Hickman/WindowsPlayer_player_Master_mono_x64.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1642460686061898, "dur":23, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1642460686061922, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Logan/Documents/Projects/Unity/SGD213/Builds/PokerDiceBUILD-Hickman/PokerDiceGame-Hickman.exe" }}
+,{ "pid":12345, "tid":5, "ts":1642460686061942, "dur":42, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1642460686061985, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Logan/Documents/Projects/Unity/SGD213/Builds/PokerDiceBUILD-Hickman/PokerDiceGame-Hickman_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1642460686062004, "dur":23, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1642460686062028, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Logan/Documents/Projects/Unity/SGD213/Builds/PokerDiceBUILD-Hickman/PokerDiceGame-Hickman_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1642460686062056, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1642460686062074, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Logan/Documents/Projects/Unity/SGD213/Builds/PokerDiceBUILD-Hickman/PokerDiceGame-Hickman_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1642460686062090, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1642460686062104, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Logan/Documents/Projects/Unity/SGD213/Builds/PokerDiceBUILD-Hickman/PokerDiceGame-Hickman_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1642460686062122, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1642460686062136, "dur":472, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Logan/Documents/Projects/Unity/SGD213/Builds/PokerDiceBUILD-Hickman/PokerDiceGame-Hickman_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":5, "ts":1642460686062609, "dur":16, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1642460686062626, "dur":639, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Logan/Documents/Projects/Unity/SGD213/Builds/PokerDiceBUILD-Hickman/PokerDiceGame-Hickman_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":5, "ts":1642460686063266, "dur":18, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1642460686063285, "dur":425, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Logan/Documents/Projects/Unity/SGD213/Builds/PokerDiceBUILD-Hickman/PokerDiceGame-Hickman_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":5, "ts":1642460686063710, "dur":20, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1642460686063730, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Logan/Documents/Projects/Unity/SGD213/Builds/PokerDiceBUILD-Hickman/PokerDiceGame-Hickman_Data/resources.assets" }}
+,{ "pid":12345, "tid":5, "ts":1642460686063753, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1642460686099956, "dur":5778, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Logan/Documents/Projects/Unity/SGD213/Builds/PokerDiceBUILD-Hickman/PokerDiceGame-Hickman_Data/resources.assets" }}
+,{ "pid":12345, "tid":5, "ts":1642460686105770, "dur":25745, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1642460686048359, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1642460686048360, "dur":13044, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1642460686061406, "dur":124, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Logan/Documents/Projects/Unity/SGD213/Builds/PokerDiceBUILD-Hickman/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1642460686061530, "dur":23, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1642460686061554, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Logan/Documents/Projects/Unity/SGD213/Builds/PokerDiceBUILD-Hickman/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1642460686061639, "dur":31, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1642460686061671, "dur":102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Logan/Documents/Projects/Unity/SGD213/Builds/PokerDiceBUILD-Hickman/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1642460686061773, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1642460686061791, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Logan/Documents/Projects/Unity/SGD213/Builds/PokerDiceBUILD-Hickman/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":6, "ts":1642460686061874, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1642460686061892, "dur":102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Logan/Documents/Projects/Unity/SGD213/Builds/PokerDiceBUILD-Hickman/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":6, "ts":1642460686061994, "dur":21, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1642460686062015, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Logan/Documents/Projects/Unity/SGD213/Builds/PokerDiceBUILD-Hickman/PokerDiceGame-Hickman_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1642460686062040, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1642460686062056, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Logan/Documents/Projects/Unity/SGD213/Builds/PokerDiceBUILD-Hickman/PokerDiceGame-Hickman_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1642460686062080, "dur":19, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1642460686062099, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Logan/Documents/Projects/Unity/SGD213/Builds/PokerDiceBUILD-Hickman/PokerDiceGame-Hickman_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1642460686062116, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1642460686062131, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Logan/Documents/Projects/Unity/SGD213/Builds/PokerDiceBUILD-Hickman/PokerDiceGame-Hickman_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1642460686062147, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1642460686062162, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Logan/Documents/Projects/Unity/SGD213/Builds/PokerDiceBUILD-Hickman/PokerDiceGame-Hickman_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1642460686062177, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1642460686062194, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Logan/Documents/Projects/Unity/SGD213/Builds/PokerDiceBUILD-Hickman/PokerDiceGame-Hickman_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1642460686062213, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1642460686062227, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Logan/Documents/Projects/Unity/SGD213/Builds/PokerDiceBUILD-Hickman/PokerDiceGame-Hickman_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1642460686062243, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1642460686062256, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Logan/Documents/Projects/Unity/SGD213/Builds/PokerDiceBUILD-Hickman/PokerDiceGame-Hickman_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1642460686062274, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1642460686062288, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Logan/Documents/Projects/Unity/SGD213/Builds/PokerDiceBUILD-Hickman/PokerDiceGame-Hickman_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1642460686062303, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1642460686062317, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Logan/Documents/Projects/Unity/SGD213/Builds/PokerDiceBUILD-Hickman/PokerDiceGame-Hickman_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1642460686062339, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1642460686062352, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Logan/Documents/Projects/Unity/SGD213/Builds/PokerDiceBUILD-Hickman/PokerDiceGame-Hickman_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1642460686062369, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1642460686062381, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Logan/Documents/Projects/Unity/SGD213/Builds/PokerDiceBUILD-Hickman/PokerDiceGame-Hickman_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1642460686062396, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1642460686062409, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Logan/Documents/Projects/Unity/SGD213/Builds/PokerDiceBUILD-Hickman/PokerDiceGame-Hickman_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1642460686062492, "dur":42, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1642460686062535, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Logan/Documents/Projects/Unity/SGD213/Builds/PokerDiceBUILD-Hickman/PokerDiceGame-Hickman_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1642460686062554, "dur":21, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1642460686062576, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Logan/Documents/Projects/Unity/SGD213/Builds/PokerDiceBUILD-Hickman/PokerDiceGame-Hickman_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1642460686062597, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1642460686062610, "dur":843, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Logan/Documents/Projects/Unity/SGD213/Builds/PokerDiceBUILD-Hickman/PokerDiceGame-Hickman_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":6, "ts":1642460686063454, "dur":19, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1642460686063474, "dur":214, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Logan/Documents/Projects/Unity/SGD213/Builds/PokerDiceBUILD-Hickman/PokerDiceGame-Hickman_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":6, "ts":1642460686063688, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1642460686063706, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Logan/Documents/Projects/Unity/SGD213/Builds/PokerDiceBUILD-Hickman/PokerDiceGame-Hickman_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1642460686063726, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1642460686095550, "dur":5937, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Logan/Documents/Projects/Unity/SGD213/Builds/PokerDiceBUILD-Hickman/PokerDiceGame-Hickman_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1642460686101508, "dur":29946, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1642460686048405, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1642460686048406, "dur":12971, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1642460686061381, "dur":655, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Logan/Documents/Projects/Unity/SGD213/Builds/PokerDiceBUILD-Hickman/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":7, "ts":1642460686062036, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1642460686062053, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Logan/Documents/Projects/Unity/SGD213/Builds/PokerDiceBUILD-Hickman/PokerDiceGame-Hickman_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1642460686062070, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1642460686062085, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Logan/Documents/Projects/Unity/SGD213/Builds/PokerDiceBUILD-Hickman/PokerDiceGame-Hickman_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1642460686062100, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1642460686062115, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Logan/Documents/Projects/Unity/SGD213/Builds/PokerDiceBUILD-Hickman/PokerDiceGame-Hickman_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1642460686062129, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1642460686062143, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Logan/Documents/Projects/Unity/SGD213/Builds/PokerDiceBUILD-Hickman/PokerDiceGame-Hickman_Data/Managed/UnityEngine.UaaLAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1642460686062157, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1642460686062174, "dur":330, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Logan/Documents/Projects/Unity/SGD213/Builds/PokerDiceBUILD-Hickman/PokerDiceGame-Hickman_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1642460686062504, "dur":29, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1642460686062534, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Logan/Documents/Projects/Unity/SGD213/Builds/PokerDiceBUILD-Hickman/PokerDiceGame-Hickman_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1642460686062553, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1642460686062565, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Logan/Documents/Projects/Unity/SGD213/Builds/PokerDiceBUILD-Hickman/PokerDiceGame-Hickman_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1642460686062583, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1642460686062594, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Logan/Documents/Projects/Unity/SGD213/Builds/PokerDiceBUILD-Hickman/PokerDiceGame-Hickman_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1642460686062607, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1642460686062620, "dur":1085, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Logan/Documents/Projects/Unity/SGD213/Builds/PokerDiceBUILD-Hickman/PokerDiceGame-Hickman_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1642460686063705, "dur":31, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1642460686063737, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Logan/Documents/Projects/Unity/SGD213/Builds/PokerDiceBUILD-Hickman/PokerDiceGame-Hickman_Data/level0.resS" }}
+,{ "pid":12345, "tid":7, "ts":1642460686063786, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1642460686104497, "dur":8120, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Logan/Documents/Projects/Unity/SGD213/Builds/PokerDiceBUILD-Hickman/PokerDiceGame-Hickman_Data/level0.resS" }}
+,{ "pid":12345, "tid":7, "ts":1642460686112664, "dur":18793, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1642460686048253, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1642460686048254, "dur":13141, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1642460686061397, "dur":118, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Logan/Documents/Projects/Unity/SGD213/Builds/PokerDiceBUILD-Hickman/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1642460686061515, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1642460686061540, "dur":108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Logan/Documents/Projects/Unity/SGD213/Builds/PokerDiceBUILD-Hickman/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1642460686061649, "dur":19, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1642460686061669, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Logan/Documents/Projects/Unity/SGD213/Builds/PokerDiceBUILD-Hickman/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1642460686061747, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1642460686061764, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Logan/Documents/Projects/Unity/SGD213/Builds/PokerDiceBUILD-Hickman/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":8, "ts":1642460686061837, "dur":62, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1642460686061900, "dur":96, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Logan/Documents/Projects/Unity/SGD213/Builds/PokerDiceBUILD-Hickman/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":8, "ts":1642460686061996, "dur":20, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1642460686062017, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Logan/Documents/Projects/Unity/SGD213/Builds/PokerDiceBUILD-Hickman/PokerDiceGame-Hickman_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1642460686062042, "dur":18, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1642460686062061, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Logan/Documents/Projects/Unity/SGD213/Builds/PokerDiceBUILD-Hickman/PokerDiceGame-Hickman_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1642460686062079, "dur":19, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1642460686062098, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Logan/Documents/Projects/Unity/SGD213/Builds/PokerDiceBUILD-Hickman/PokerDiceGame-Hickman_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1642460686062114, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1642460686062128, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Logan/Documents/Projects/Unity/SGD213/Builds/PokerDiceBUILD-Hickman/PokerDiceGame-Hickman_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1642460686062141, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1642460686062156, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Logan/Documents/Projects/Unity/SGD213/Builds/PokerDiceBUILD-Hickman/PokerDiceGame-Hickman_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1642460686062175, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1642460686062188, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Logan/Documents/Projects/Unity/SGD213/Builds/PokerDiceBUILD-Hickman/PokerDiceGame-Hickman_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1642460686062204, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1642460686062219, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Logan/Documents/Projects/Unity/SGD213/Builds/PokerDiceBUILD-Hickman/PokerDiceGame-Hickman_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1642460686062233, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1642460686062246, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Logan/Documents/Projects/Unity/SGD213/Builds/PokerDiceBUILD-Hickman/PokerDiceGame-Hickman_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1642460686062262, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1642460686062280, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Logan/Documents/Projects/Unity/SGD213/Builds/PokerDiceBUILD-Hickman/PokerDiceGame-Hickman_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1642460686062295, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1642460686062311, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Logan/Documents/Projects/Unity/SGD213/Builds/PokerDiceBUILD-Hickman/PokerDiceGame-Hickman_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1642460686062325, "dur":22, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1642460686062347, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Logan/Documents/Projects/Unity/SGD213/Builds/PokerDiceBUILD-Hickman/PokerDiceGame-Hickman_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1642460686062361, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1642460686062374, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Logan/Documents/Projects/Unity/SGD213/Builds/PokerDiceBUILD-Hickman/PokerDiceGame-Hickman_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1642460686062387, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1642460686062400, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Logan/Documents/Projects/Unity/SGD213/Builds/PokerDiceBUILD-Hickman/PokerDiceGame-Hickman_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1642460686062415, "dur":86, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1642460686062501, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Logan/Documents/Projects/Unity/SGD213/Builds/PokerDiceBUILD-Hickman/PokerDiceGame-Hickman_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1642460686062533, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1642460686062548, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Logan/Documents/Projects/Unity/SGD213/Builds/PokerDiceBUILD-Hickman/PokerDiceGame-Hickman_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1642460686062564, "dur":16, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1642460686062580, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Logan/Documents/Projects/Unity/SGD213/Builds/PokerDiceBUILD-Hickman/PokerDiceGame-Hickman_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1642460686062608, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1642460686062623, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Logan/Documents/Projects/Unity/SGD213/Builds/PokerDiceBUILD-Hickman/PokerDiceGame-Hickman_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":8, "ts":1642460686062644, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1642460686062662, "dur":1247, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Logan/Documents/Projects/Unity/SGD213/Builds/PokerDiceBUILD-Hickman/PokerDiceGame-Hickman_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":8, "ts":1642460686063910, "dur":21, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1642460686063932, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Logan/Documents/Projects/Unity/SGD213/Builds/PokerDiceBUILD-Hickman/PokerDiceGame-Hickman_Data/level0" }}
+,{ "pid":12345, "tid":8, "ts":1642460686063989, "dur":77, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1642460686118581, "dur":7834, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Logan/Documents/Projects/Unity/SGD213/Builds/PokerDiceBUILD-Hickman/PokerDiceGame-Hickman_Data/level0" }}
+,{ "pid":12345, "tid":8, "ts":1642460686126479, "dur":5007, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1642460686156817, "dur":3102, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1642460686210197, "dur": 2561, "ph": "X", "name": "backend_profiler0.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1642460686209565, "dur": 3266, "ph": "X", "name": "Write chrome-trace events", "args": {} },
